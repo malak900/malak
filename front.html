@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harvest Academy | IT Training</title>
+  <link rel="stylesheet" href="front.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#home" class="logo">Harvest Academy</a>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-btn" aria-label="Open menu">&#9776;</label>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#tracks">Training Tracks</a></li>
+      <li><a href="#courses">IT Courses</a></li>
+      <li><a href="#register">Register</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Grow your skills. Harvest your career.</h1>
+      <p>Welcome to Harvest Academy, a training company that turns beginners into confident IT professionals through practical, project-based learning.</p>
+      <a href="#register" class="btn">Register now</a>
+      <a href="#courses" class="btn btn-outline">Browse courses</a>
+    </div>
+    <img src="https://picsum.photos/id/180/700/480" alt="Students learning to code on laptops">
+  </section>
+
+  <section class="overview">
+    <article><h3>Expert trainers</h3><p>Learn from developers who work in the industry.</p></article>
+    <article><h3>Hands-on projects</h3><p>Build real websites and apps in every course.</p></article>
+    <article><h3>Career support</h3><p>CV reviews and interview practice for graduates.</p></article>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p class="lead">Harvest Academy was founded to make quality IT education practical and affordable. We teach the skills companies are hiring for today, in small groups with personal feedback.</p>
+    <div class="two-col">
+      <article class="card">
+        <h3>Our Vision</h3>
+        <p>To be the most trusted academy for launching technology careers in the region.</p>
+      </article>
+      <article class="card">
+        <h3>Our Mission</h3>
+        <ul>
+          <li>Teach modern skills through real projects.</li>
+          <li>Support every student from first lesson to first job.</li>
+          <li>Keep our courses current with the industry.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="tracks" class="alt">
+    <h2>Training Tracks</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="https://picsum.photos/id/0/400/220" alt="Front-end design on a laptop">
+        <h3>Front-End Development</h3>
+        <p>Build the part of websites users see and use.</p>
+        <ul><li>HTML, CSS, JavaScript</li><li>React</li></ul>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/id/60/400/220" alt="Server and code on a desk">
+        <h3>Back-End Development</h3>
+        <p>Create the servers, logic and databases behind apps.</p>
+        <ul><li>Node.js or Python</li><li>SQL and APIs</li></ul>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/id/119/400/220" alt="Developer working on two screens">
+        <h3>Full-Stack Development</h3>
+        <p>Combine front-end and back-end to ship complete products.</p>
+        <ul><li>MERN stack</li><li>Deployment</li></ul>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/id/366/400/220" alt="Data charts on a screen">
+        <h3>Data Analysis</h3>
+        <p>Turn raw data into clear decisions.</p>
+        <ul><li>Excel and SQL</li><li>Power BI</li></ul>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/id/1/400/220" alt="Laptop with security code">
+        <h3>Cyber Security</h3>
+        <p>Learn to protect systems, networks and data.</p>
+        <ul><li>Networking basics</li><li>Ethical hacking</li></ul>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/id/160/400/220" alt="Mobile phone with app design">
+        <h3>Mobile App Development</h3>
+        <p>Build apps for Android and iOS.</p>
+        <ul><li>Flutter</li><li>Publishing apps</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h2>IT Courses</h2>
+    <div class="table-wrap">
+      <table>
+        <caption>Available courses</caption>
+        <thead>
+          <tr><th>Course</th><th>Description</th><th>Level</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML &amp; CSS Fundamentals</td><td>Build and style responsive web pages from scratch.</td><td><span class="tag beginner">Beginner</span></td></tr>
+          <tr><td>JavaScript Essentials</td><td>Variables, functions, DOM and events.</td><td><span class="tag beginner">Beginner</span></td></tr>
+          <tr><td>React Development</td><td>Components, state and building single-page apps.</td><td><span class="tag intermediate">Intermediate</span></td></tr>
+          <tr><td>Node.js &amp; Express</td><td>Create REST APIs and connect to databases.</td><td><span class="tag intermediate">Intermediate</span></td></tr>
+          <tr><td>SQL &amp; Databases</td><td>Design schemas and write powerful queries.</td><td><span class="tag intermediate">Intermediate</span></td></tr>
+          <tr><td>Full-Stack Capstone</td><td>Plan, build and deploy a complete web product.</td><td><span class="tag advanced">Advanced</span></td></tr>
+          <tr><td>Network Security</td><td>Threats, firewalls and defensive techniques.</td><td><span class="tag advanced">Advanced</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="register" class="alt">
+    <h2>Student Registration</h2>
+    <form class="form" action="#" method="post">
+      <label for="r-name">Full name</label>
+      <input type="text" id="r-name" name="name" required>
+
+      <label for="r-email">Email</label>
+      <input type="email" id="r-email" name="email" required>
+
+      <label for="r-phone">Phone</label>
+      <input type="tel" id="r-phone" name="phone">
+
+      <label for="r-track">Training track</label>
+      <select id="r-track" name="track">
+        <option>Front-End Development</option>
+        <option>Back-End Development</option>
+        <option>Full-Stack Development</option>
+        <option>Data Analysis</option>
+        <option>Cyber Security</option>
+        <option>Mobile App Development</option>
+      </select>
+
+      <fieldset>
+        <legend>Level</legend>
+        <label><input type="radio" name="level" value="beginner" checked> Beginner</label>
+        <label><input type="radio" name="level" value="intermediate"> Intermediate</label>
+        <label><input type="radio" name="level" value="advanced"> Advanced</label>
+      </fieldset>
+
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="form" action="#" method="post">
+      <label for="c-name">Name</label>
+      <input type="text" id="c-name" name="name" required>
+
+      <label for="c-email">Email</label>
+      <input type="email" id="c-email" name="email" required>
+
+      <label for="c-subject">Subject</label>
+      <input type="text" id="c-subject" name="subject" required>
+
+      <label for="c-message">Message</label>
+      <textarea id="c-message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Send message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Harvest Academy. All rights reserved.</p>
+  <p><a href="#home">Back to top</a></p>
+</footer>
+
+</body>
+</html>
